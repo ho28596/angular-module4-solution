@@ -16,7 +16,6 @@
         url: (ApiBasePath + "/categories.json")
       })
         .then(function(response){
-          console.log(response.data);
           return response.data;
         });
     };
