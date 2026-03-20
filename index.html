@@ -6,12 +6,17 @@
     <title>Our Restaurant</title>
   </head>
   <body>
-    <h1>Welcome to our Restaurant</h1>
-
-	<div class="row">  
-    	<ui-view></ui-view>
-	</div>	
-
+	<div class="container">  
+    	<header class="row">
+			<div class="col-md-12">
+				<h1>Welcome to our Restaurant</h1>
+			</div>		
+		</header>
+		
+		<div class="row">  
+    		<ui-view></ui-view>
+		</div>	
+    </div>
     <!-- Libraries -->
     <script src="lib/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.0/angular-ui-router.js"></script>
