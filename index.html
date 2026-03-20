@@ -10,7 +10,8 @@
 </head>
 <body>
   <div class="container">
-    <header class="row">
+    
+	<header class="row">
       <div class="col-md-12">
         <h1>Welcome to our Restaurant</h1>
       </div>
@@ -20,40 +21,24 @@
     	<ui-view></ui-view>
     </div>
 
-    <div class="row" style="margin-top: 300px;">
-      <div class="col-md-12">
-        
-      </div>
-    </div>
-
-    <footer class="row">
-      <div class="col-md-12">
-       
-      </div>
-    </footer>
   </div>
   
-	<!-- EXTERNAL framework script files (CDN's) -->
+  <!-- EXTERNAL framework script files (CDN's) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
-  
-  <!-- Load bootstrapping module and routes -->
+  <!-- Load module and routes -->
   <script src="src/menuapp.module.js"></script>
   <script src="src/routes.js"></script>
-
-  <!-- Load other modules -->
   <script src="src/data.module.js"></script>
   <script src="src/menudata.service.js"></script>
-
-  <!-- Load rest of files -->
+  <!-- Load controller -->
   <script src="src/categories-list.controller.js"></script>
   <script src="src/items-list.controller.js"></script>
-  
-  <!-- Load components -->
+    <!-- Load components -->
   <script src="src/categories.component.js"></script>
   <script src="src/items.component.js"></script>
 </body>
